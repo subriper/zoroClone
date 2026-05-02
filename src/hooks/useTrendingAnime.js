@@ -5,10 +5,6 @@ import { useQuery } from '@tanstack/react-query'
 // تنظیمات اتصال به سرور Gogoanime
 const rapidApi = axios.create({
   baseURL: 'https://api-three-ebon-17.vercel.app/api',
-  headers: {
-    'x-rapidapi-host': 'gogoanime2.p.rapidapi.com',
-    'x-rapidapi-key': '748d416499mshbb161b48db61a5dp1eb23cjsn80a9f87dbc23' 
-  }
 })
 
 export const fetchTrendingAnime = async () => {
